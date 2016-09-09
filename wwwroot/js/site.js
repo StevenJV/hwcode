@@ -1,5 +1,5 @@
 // site.js
-function startup() {
+(function () {
     var ele = document.getElementById("username");
     ele.innerHTML = "Grumpy Grandpa";
 
@@ -11,5 +11,4 @@ function startup() {
     main.onmouseleave = function () {
     main.style.backgroundColor = "";
     }
-}
-startup();
+})();

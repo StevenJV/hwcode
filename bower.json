@@ -1,0 +1,21 @@
+{
+  "name": "hwcode",
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.4"
+  },
+  "homepage": "https://github.com/StevenJV/hwcode",
+  "authors": [
+    "Steven Vore <steven@vorefamily.net>"
+  ],
+  "description": "building a web app with asp.net core, mvc 6, ef core, and angular",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
