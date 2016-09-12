@@ -5,13 +5,16 @@
 
     var main = $("#main");
     main.on("mouseenter", function () {
-        $( this ).css( "background-color", "#888" );
-        // not sure why this syntax does not work for me.
-        // main.style = "background-color: #888;";
+        main.css("background-color", "#888" );
     });
 
     main.on("mouseleave", function () {
-        $( this ).css( "background-color", "#eee" );
+        main.css("background-color", "#eee" );
     });
 
+    var menuItems = $("ul.menu li a");
+    menuItems.on("click", function() {
+        var me = $(this);
+        alert(me.text());
+    });
 })();
