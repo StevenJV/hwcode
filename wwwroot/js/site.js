@@ -3,12 +3,12 @@
     var ele = $("#username");
     ele.text("Grumpy Grandpa");
 
-    var main = document.getElementById("main");
-    main.onmouseenter = function () {
-    main.style.backgroundColor = "#888";
-    }
+    var main = $("#main");
+    main.on("mouseenter", function () {
+        $( this ).css( "background-color", "#888" );
+    });
 
-    main.onmouseleave = function () {
-    main.style.backgroundColor = "";
-    }
+    main.on("mouseleave", function () {
+        $( this ).css( "background-color", "#eee" );
+    });
 })();
