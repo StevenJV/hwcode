@@ -11,8 +11,8 @@ namespace TheWorld.Controllers.Web
         }
         public IActionResult Contact()
         {
-            throw new InvalidOperationException("bad things happen to good developers.");
-            //return View();
+            //throw new InvalidOperationException("bad things happen to good developers.");
+            return View();
         }
         public IActionResult About()
         {
