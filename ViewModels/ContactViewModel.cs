@@ -15,7 +15,7 @@ namespace TheWorld.ViewModels
         [EmailAddress]
         public string Email { get; set; }
         [Required]
-        [StringLengthAttribute(4096, MinimumLength=10)]
+        [StringLength(4096, MinimumLength=10)]
         public string Message { get; set; }
     }
 }
