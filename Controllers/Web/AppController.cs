@@ -34,6 +34,8 @@ namespace TheWorld.Controllers.Web
             if (ModelState.IsValid)
             {
                 _mailService.SendMail(_config["MailSettings:ToAddress"], model.Email, "fromTheWorld", model.Message);
+                ModelState.Clear();
+                ViewBag.UserMessage = "Message Sent.";
             }
             return View();
         }
@@ -43,3 +45,4 @@ namespace TheWorld.Controllers.Web
         }
     }
 }
+
