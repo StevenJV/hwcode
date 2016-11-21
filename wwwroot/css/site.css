@@ -1,9 +1,4 @@
 /* site.css */
-body {
-    font-family: sans-serif;
-    font-size: 16px;
-    margin: 0 0 0 0;
-}
 
 label {
     font-weight: bold;
@@ -14,13 +9,7 @@ input[type=text], input[type=password], textarea {
     width: 150px;
 }
 
-#main {
-    background-color: #eee;
-}
-
 #footer {
-    background-color: black;
-    color: #eee;
     position: fixed;
     bottom: 0;
     width: 100%;
