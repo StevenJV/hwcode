@@ -33,7 +33,8 @@ namespace hwcode
             }
             else
             {
-                // implement a real service
+                //TODO: implement a real service
+                services.AddScoped<IMailService, DebugMailService>();
             }
 
             services.AddMvc();
