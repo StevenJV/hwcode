@@ -1,14 +1,5 @@
 /* site.css */
 
-label {
-    font-weight: bold;
-    display: block;
-}
-
-input[type=text], input[type=password], textarea {
-    width: 150px;
-}
-
 .headshot {
     max-width: 50px;
     border: 1px solid #222;
