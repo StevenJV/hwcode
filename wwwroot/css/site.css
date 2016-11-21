@@ -54,7 +54,6 @@ input[type=text], input[type=password], textarea {
 
 #wrapper {
     margin: 0 0 0 250px;
-    padding-left: 10px;
     -moz-transition: margin-left ease .25s;
     -o-transition: margin-left ease .25s;
     -webkit-transition: margin-left ease .25s;
